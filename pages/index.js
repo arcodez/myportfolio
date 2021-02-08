@@ -12,7 +12,7 @@ function bulma() {
 		<div className="App">
 			<NavBar />
 			<Home />
-			<AboutMe />
+			<AboutMe /> 
 			<Projects />
 			<Skills />
 			<Contact />
