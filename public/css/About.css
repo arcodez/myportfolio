@@ -1,0 +1,12 @@
+#About {
+  text-align: center;
+  background-color: #f1ece9;
+}
+
+#About .longDescription {
+  text-align: justify;
+}
+
+#About .aboutImage {
+  border-radius: 2px;
+}
