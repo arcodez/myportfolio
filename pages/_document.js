@@ -17,14 +17,19 @@ class MyDocument extends Document {
             type="text/css"
             href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.css"
           />
+          <script src="/js/navbar.js"></script>
           <script
             defer
             src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
           ></script>
+          <script src="https://unpkg.com/scrollreveal"></script>
         </Head>
         <body>
           <Main />
           <NextScript />
+          <script>
+          ScrollReveal().reveal('.App')
+          </script>
         </body>
       </Html>
     );

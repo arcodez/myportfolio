@@ -1,6 +1,12 @@
+html {
+  scroll-behavior: smooth;
+}
+
 #Home {
   width: 100vw;
   min-height: calc(100vh - 52px);
+  overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 
 #Home .decorations {
@@ -15,6 +21,8 @@
 }
 
 .sectionOverride {
+  background-image: url(/images/pc-bg.gif);
+  background-color: black;
   align-items: center;
   flex-direction: row;
   justify-content: space-between;

@@ -52,7 +52,7 @@ function Projects() {
 
     return (
       <div id="Projects">
-        <section className="hero">
+        <section className="hero" style={{ width: '90%' }}>
           <div className="hero-body">
             <div className="container">
               <h1 className="title">Projects</h1>

@@ -1,5 +1,4 @@
 import React from 'react';
-import Scroll from 'react-scroll';
 import { about } from '../../configs';
 
 function Footer(){
@@ -36,9 +35,7 @@ function Footer(){
         </div>
         <button
           className="button is-link scrollToTopBtn"
-          onClick={() => {
-            Scroll.animateScroll.scrollToTop();
-          }}
+          href="#Home"
         >
           <span className="icon is-small">
             <i className="fas fa-arrow-up"></i>

@@ -1,77 +1,55 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import Scroll from "react-scroll";
-
-const NavBarItems = [
-  {
-    text: "Home",
-  },
-  {
-    text: "About",
-  },
-  {
-    text: "Projects",
-  },
-  {
-    text: "Skills",
-  },
-  {
-    text: "Contact",
-  },
-];
 
 function NavBar() {
-  const state = {
-    hamburgerIsOpen: false,
-  };
-
   return (
-    <nav
-      className="navbar is-link is-fixed-top"
-      role="navigation"
-      aria-label="main navigation"
-    >
-      <div className="navbar-brand">
-        <a
-          role="button"
-          className={`navbar-burger ${
-            state.hamburgerIsOpen ? "is-active" : ""
-          }`}
-          aria-label="menu"
-          aria-expanded="false"
-          onClick={() =>
-            setState((state) => ({ hamburgerIsOpen: !state.hamburgerIsOpen }))
-          }
-        >
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-        </a>
-      </div>
+      <nav className="navbar is-dark is-fixed-top py-5" role="navigation" aria-label="main navigation">
+        <div className="navbar-brand">
+          <a className="navbar-item" href="https://bulma.io">
+            <img
+              src="https://bulma.io/images/bulma-logo.png"
+              width="112"
+              height="28"
+            />
+          </a>
 
-      <div
-        className={`navbar-menu ${state.hamburgerIsOpen ? "is-active" : ""}`}
-      >
-        <div className="navbar-end">
-          {NavBarItems.map((item) => (
-            <a
-              key={item.text}
-              className="navbar-item"
-              onClick={() => {
-                Scroll.scroller.scrollTo(item.text, {
-                  duration: 500,
-                  delay: 100,
-                  smooth: true,
-                  offset: -52,
-                });
-              }}
-            >
-              {item.text}
-            </a>
-          ))}
+          <a
+            role="button"
+            className="navbar-burger"
+            aria-label="menu"
+            aria-expanded="false"
+            data-target="navbarBasicExample"
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
         </div>
-      </div>
-    </nav>
+
+        <div id="navbarBasicExample" className="navbar-menu is-dark">
+          <div className="navbar-end px-5">
+            <a className="navbar-item" href="#Home">Home</a>
+            <a className="navbar-item" href="#About">About</a>
+            <a className="navbar-item" href="#Projects">Projects</a>
+            <a className="navbar-item" href="#Skills">Skills</a>
+            <a className="navbar-item" href="#Contact">Contact</a>
+
+            <div className="navbar-item has-dropdown is-hoverable">
+              <a className="navbar-link">More</a>
+
+              <div className="navbar-dropdown">
+                <a className="navbar-item">About</a>
+                <a className="navbar-item">Jobs</a>
+                <a className="navbar-item">Contact</a>
+                <hr className="navbar-divider" />
+                <a className="navbar-item">Report an issue</a>
+              </div>
+            </div>
+            <a className="navbar-item">Documentation</a>
+          </div>
+
+
+        </div>
+      </nav>
   );
 }
 
