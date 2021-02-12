@@ -25,7 +25,7 @@ function bulma() {
         <meta property="og:title" content="Abel Rodriguez Web Developer" />
         <meta
           property="og:description"
-          content="Desarrollador Web en tecnologías del fronted principalmente React y Node, con 5 meses de experiencia y aprendizaje rápido y en tecnologia del backend como Mongo db y javascript nativo "
+          content="Desarrollador Web en tecnologías del fronted principalmente React, Next  y Node, con 5 meses de experiencia y aprendizaje rápido y en tecnologia del backend como Mongo db y javascript nativo "
         />
         <meta
           property="og:image"
