@@ -21,7 +21,7 @@ function bulma() {
         />
 
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://metatags.io/" />
+        <meta property="og:url" content="#" />
         <meta property="og:title" content="Abel Rodriguez Web Developer" />
         <meta
           property="og:description"
@@ -33,7 +33,7 @@ function bulma() {
         />
 
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://metatags.io/" />
+        <meta property="twitter:url" content="#" />
         <meta property="twitter:title" content="Abel Rodriguez Web Developer" />
         <meta
           property="twitter:description"
