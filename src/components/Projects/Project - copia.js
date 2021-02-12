@@ -32,7 +32,7 @@ function Project() {
             </li>
             <li>
               <a href="#" className="icon brands fa-github">
-                <span className="label">Github</span>
+                <span className="label">Github </span>
               </a>
             </li>
             <li>
