@@ -19,7 +19,7 @@ function bulma() {
           content="Desarrollador Web en tecnologías del fronted principalmente React y Node, con 5 meses de experiencia y aprendizaje rápido y en tecnologia del backend como Mongo"
         />
         <meta name="robots" content="index, follow"></meta>
-        <meta property="og:image" content="/meta" />
+        <meta property="og:image" content="/meta.jpg" />
       </Head>
       <NavBar />
       <Home />
