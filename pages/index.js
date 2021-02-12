@@ -14,35 +14,12 @@ function bulma() {
       {/* Meta Seo */}
       <Head>
         <title>Abel Rodriguez Web Developer</title>
-        <meta name="title" content="Abel Rodriguez Web Developer" />
         <meta
           name="description"
-          content="Desarrollador Web en tecnologías del fronted principalmente React y Node, con 5 meses de experiencia y aprendizaje rápido y en tecnologia del backend como Mongo db y javascript nativo "
+          content="Desarrollador Web en tecnologías del fronted principalmente React y Node, con 5 meses de experiencia y aprendizaje rápido y en tecnologia del backend como Mongo"
         />
-
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="#" />
-        <meta property="og:title" content="Abel Rodriguez Web Developer" />
-        <meta
-          property="og:description"
-          content="Desarrollador Web en tecnologías del fronted principalmente React, Next  y Node, con 5 meses de experiencia y aprendizaje rápido y en tecnologia del backend como Mongo db y javascript nativo "
-        />
-        <meta
-          property="og:image"
-          content="/meta.jpg"
-        />
-
-        <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="#" />
-        <meta property="twitter:title" content="Abel Rodriguez Web Developer" />
-        <meta
-          property="twitter:description"
-          content="Desarrollador Web en tecnologías del fronted principalmente React y Node, con 5 meses de experiencia y aprendizaje rápido y en tecnologia del backend como Mongo db y javascript nativo "
-        />
-        <meta
-          property="twitter:image"
-          content="/meta.jpg"
-        />
+        <meta name="robots" content="index, follow"></meta>
+        <meta property="og:image" content="/meta" />
       </Head>
       <NavBar />
       <Home />
