@@ -29,7 +29,7 @@ function bulma() {
         />
         <meta
           property="og:image"
-          content="http://www.jenyalestina.com/blog/wp-content/uploads/2019/05/web-development-1200x682.jpg"
+          content="/meta.jpg"
         />
 
         <meta property="twitter:card" content="summary_large_image" />
@@ -41,7 +41,7 @@ function bulma() {
         />
         <meta
           property="twitter:image"
-          content="http://www.jenyalestina.com/blog/wp-content/uploads/2019/05/web-development-1200x682.jpg"
+          content="/meta.jpg"
         />
       </Head>
       <NavBar />
