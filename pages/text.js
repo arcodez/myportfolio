@@ -1,10 +1,11 @@
 import React from 'react'
-import TextAnimation from '../src/components/Text/TextAnimation'
+import Slider1 from '../src/components/Slider/Slider1'
+import Slider2 from '../src/components/Slider/Slider2'
 
 export default function text() {
     return (
-        <div>
-            <TextAnimation />
+        <div className="container">
+            <Slider2 />
         </div>
     )
 }

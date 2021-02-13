@@ -11,6 +11,8 @@ class MyDocument extends Document {
           <link rel="stylesheet" href="/css/Home.css" />
           <link rel="stylesheet" href="/css/Projects.css" />
           <link rel="stylesheet" href="/css/Skills.css" />
+          <link rel="stylesheet" href="/css/Slider1.css" />
+          <link rel="stylesheet" href="/css/Slider2.css" />
           <link rel="stylesheet" href="/css/ContactForm.css" />
           <link rel="stylesheet" href="/css/bulma.min.css"/>
           <script src="/js/navbar.js"></script>
