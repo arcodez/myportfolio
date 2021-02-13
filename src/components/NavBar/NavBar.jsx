@@ -2,7 +2,7 @@ import React from "react";
 
 function NavBar() {
   return (
-      <nav className="navbar is-dark is-fixed-top py-5" role="navigation" aria-label="main navigation">
+      <nav className="navbar is-dark is-fixed-top py-3" role="navigation" aria-label="main navigation">
         <div className="navbar-brand">
           <a className="navbar-item" href="/">
           <img src="/logo.png" alt="Abel Logo"/>

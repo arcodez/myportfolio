@@ -12,11 +12,7 @@ class MyDocument extends Document {
           <link rel="stylesheet" href="/css/Projects.css" />
           <link rel="stylesheet" href="/css/Skills.css" />
           <link rel="stylesheet" href="/css/ContactForm.css" />
-          <link
-            rel="stylesheet"
-            type="text/css"
-            href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.css"
-          />
+          <link rel="stylesheet" href="/css/bulma.min.css"/>
           <script src="/js/navbar.js"></script>
           <script
             defer
