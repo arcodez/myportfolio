@@ -8,7 +8,6 @@ import Footer from "../src/components/Footer/Footer";
 import NavBar from "../src/components/NavBar/NavBar";
 import Head from "next/head";
 import Slider1 from "../src/components/Slider/Slider1";
-import Slider2 from "../src/components/Slider/Slider2";
 
 function bulma() {
   return (
