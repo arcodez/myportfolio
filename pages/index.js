@@ -27,7 +27,6 @@ function bulma() {
       <Home />
       <AboutMe />
       <Slider1 />
-      <Slider2 />
       <Projects />
       <Skills />
       <Contact />
